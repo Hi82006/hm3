@@ -24,13 +24,10 @@ body{
     background: #FFFFFF
 }
 a:hover{
-    background-color: #575757;
+    background-color: #2519a2;
 }
 button{
     cursor: pointer;
-}
-button:hover{
-    background-color: #575757;
 }
 .head-main{
     text-align: center;
@@ -214,6 +211,7 @@ button:hover{
     position: absolute;
     content: "<";
     right: 207px;
+    bottom: 6px;
 
 }
 .other-name>h3{
@@ -231,7 +229,8 @@ button:hover{
     background-color: #0062FF;
     background-size: auto;
     padding-top: 71px;
-    text-align-last: center;
+    padding-bottom: 71px;
+    /* text-align-last: center; */
 }
 .for-who{
     text-align: center;
@@ -288,8 +287,11 @@ button:hover{
     margin-top: 46px;
 }
 .want-it{
-    margin: 64px auto 71px auto;
-    padding: 10px 16px;
+    width: 99px;
+    height: 39px;
+    display: block;
+    margin: 64px auto 0px auto;
+    padding: 10px 15px;
     background: #FFFFFF;
     color: #2203E4;
     border: 1px solid #2203E4
@@ -403,6 +405,7 @@ button:hover{
     border-radius: 12px;
     width: 702px;
     position: absolute;
+    opacity: 0.7;
 }
 .right-cont{
     left: 734px;
@@ -411,6 +414,7 @@ button:hover{
     border-radius: 12px;
     width: 702px;
     position: absolute;
+    opacity: 0.7;
 }
 .cont-start{
     max-width: 951.05px;
